@@ -1,0 +1,58 @@
+1. A C++ program is a collection of functions. 
+2. Every C++ program has a function called main. 
+3. A single-line comment starts with the pair of symbols //anywhere in the line. 
+4. Multiline comments are enclosed between /* and */. 
+5. The compiler skips comments. 
+6. Reserved words cannot be used as identifiers in a program. 
+7. All reserved words in C++ consist of lowercase letters. 
+8. In C++, identifiers are names of things. 
+9. A C++ identifier consists of letters, digits, and underscores and must begin with a letter or underscore. 
+10. Whitespaces include blanks, tabs, and newline characters. 
+11. A data type is a set of values together with a set of operations. 
+12. C++ data types fall into the following three categories: simple, structured, and pointers. 
+13. There are three categories of simple data: integral, floating-point, and enumeration. 
+14. Integral data types are classified into nine categories: char, short, int, long, bool, unsigned char, unsigned short, unsigned int, and unsigned long. 
+15. The values belonging to int data type are -2147483648  to 2147483647. 
+16. The data type bool has only two values: true and false. 
+17. The most common character sets are ASCII, which has 128 values, and EBCDIC, which has 256 values. 
+18. The collating sequence of a character is its preset number in the character data set. 
+19. C++ provides three data types to manipulate decimal numbers: float, double, and long double. 
+20. The data type float is used in C++ to represent any real number between -3.4 * 10^38 and 3.4 * 10^38. The memory allocated for a value of the float data type is four bytes. 
+21. The data type double is used in C++ to represent any real number between -1.7 * 10^308 and 1.7 * 10^308. The memory allocated for a value of the double data type is eight bytes. 
+22. The arithmetic operators in C++ are addition (+), subtraction (-), multiplication (*), division (/), and modulus (%). 
+23. The modulus operator, %, takes only integer operands. 
+24. Arithmetic expressions are evaluated using the precedence rules and the associativity of the arithmetic operators. 25. All operands in an integral expression, or integer expression, are integers, and all operands in a floating-point expression are decimal numbers. 
+26. A mixed expression is an expression that consists of both integers and decimal numbers. 
+27. When evaluating an operator in an expression, an integer is converted to a floating-point number, with a decimal part of 0, only if the operator has mixed operands. 
+28. You can use the cast operator to explicitly convert values from one data type to another. 
+29. A string is a sequence of zero or more characters. 
+30. Strings in C++ are enclosed in double quotation marks. 
+31. A string containing no characters is called a null or empty string. 
+32. Every character in a string has a relative position in the string. The position of the first character is 0, the position of the second character is 1, and so on. 
+33. The length of a string is the number of characters in it. 
+34. During program execution, the contents of a named constant cannot be changed. 
+35. A named constant is declared by using the reserved word const. 
+36. A named constant is initialized when it is declared. 
+37. All variables must be declared before they can be used. 
+38. C++ does not automatically initialize variables. 
+39. Every variable has a name, a value, a data type, and a size. 
+40. When a new value is assigned to a variable, the old value is lost. 
+41. Only an assignment statement or an input (read) statement can change the value of a variable. 
+42. In C++, >> is called the stream extraction operator. 
+43. Input from the standard input device is accomplished by using cin and the stream extraction operator >>. 
+44. When data is input in a program, the data items, such as numbers, are usually separated by blanks, lines, or tabs. 
+45. In C++, << is called the stream insertion operator. 
+46. Output of the program to the standard output device is accomplished by using cout and the stream insertion operator <<.
+47. The manipulator endl positions the insertion point at the beginning of the next line on an output device. 
+48. Outputting or accessing the value of a variable in an expression does not destroy or modify the contents of the variable. 
+49. The character \ is called the escape character. 
+50. The sequence \n is called the newline escape sequence. 
+51. All preprocessor commands start with the symbol #. 
+52. The preprocessor commands are processed by the preprocessor before the program goes through the compiler. 
+53. The preprocessor command #include instructs the preprocessor to include the header file iostream in the program. 54. To use cin and cout, the program must include the header file iostream and either include the statement using namespace std; or refer to these identifiers as std::cin and std::cout. 
+55. All C++ statements end with a semicolon. The semicolon in C++ is called the statement terminator.
+56. A C++ system has three components: environment, language, and the standard libraries. 
+57. Standard libraries are not part of the C++ language. They contain functions to perform operations, such as mathematical operations. 
+58. A file containing a C++ program usually ends with the extension .cpp. 
+59. Prompt lines are executable statements that tell the user what to do. 
+60. Corresponding to the five arithmetic operators +, -, *, /, and %, C++ provides five compound operators: +=, -=, *=, /=, and %=, respectively.
